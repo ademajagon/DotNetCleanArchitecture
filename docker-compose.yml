@@ -1,0 +1,6 @@
+services:
+  dotnetcleanarchitecture.api:
+    image: ${DOCKER_REGISTRY-}dotnetcleanarchitectureapi
+    build:
+      context: .
+      dockerfile: DotNetCleanArchitecture.API/Dockerfile
